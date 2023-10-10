@@ -1,4 +1,4 @@
-def main(fruits1, fruits2):
+def main(f1, f2):
     """
     You will be given a list of several fruits called fruits1 and fruits2. Return the result by adding the second to the first list.
     Args:
@@ -7,4 +7,7 @@ def main(fruits1, fruits2):
     Returns:
         list: return answer
     """
-    return
+  
+    f1.extend(f2)
+    return (f1)
+print(main(["fghj","ghjkl","hjkl;l"],["rtfgyuhji","beshim dalbayop"]))
