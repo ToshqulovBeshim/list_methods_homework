@@ -1,4 +1,4 @@
-def main(list01):
+def main(l):
     """
     A list of zeros and ones is given. Find how many zeros are involved and return.
     Args:
@@ -6,4 +6,6 @@ def main(list01):
     Returns:
         int: return answer
     """
-    return
+    
+    return l.count(0)
+print (main(l=[1,1,0,0,0,0,0,0,0,1,0,0,1,5,6])) 
